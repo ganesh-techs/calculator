@@ -9,7 +9,9 @@ function Add(){
     else{
         String+=" + "+a;
     }
-    document.getElementById("result").innerHTML = String;    
+    document.getElementById("result").innerHTML = String;   
+    document.getElementById("data1").value = "";  
+ 
 }
 function sub(){
     a=parseInt(document.getElementById("data1").value);
@@ -20,7 +22,9 @@ function sub(){
     else{
         String+=" - "+a;
     }
-    document.getElementById("result").innerHTML = String;    
+    document.getElementById("result").innerHTML = String;  
+    document.getElementById("data1").value = "";  
+  
 }
 function mul(){
     a=parseInt(document.getElementById("data1").value);
@@ -31,7 +35,9 @@ function mul(){
     else{
         String+=" * "+a;
     }
-    document.getElementById("result").innerHTML = String;    
+    document.getElementById("result").innerHTML = String;   
+    document.getElementById("data1").value = "";  
+ 
 }
 function div(){
     a=parseInt(document.getElementById("data1").value);
@@ -42,8 +48,12 @@ function div(){
     else{
         String+=" / "+a;
     }
-    document.getElementById("result").innerHTML = String;    
+    document.getElementById("result").innerHTML = String;   
+    document.getElementById("data1").value = "";  
+ 
 }
 function equal(){
     document.getElementById("result").innerHTML =String+" = "+ sum;
+    document.getElementById("data1").value = "";  
+
 }
