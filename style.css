@@ -2,7 +2,7 @@ body{
    background-image: linear-gradient(to right,#F6ea41,#F048c6);
 }
 .cal{
-    height: 300px; 
+    height: fit-content; 
     width: 300px;
     flex-direction: column;
     background-color: rgb(235, 235, 241);
@@ -28,7 +28,7 @@ input{
     border-color: white;
 }
 div p{
-    border: red;
+    border: white;
     height: fit-content;
     width: 16rem;
     background-color: whitesmoke;
