@@ -29,7 +29,7 @@ input{
 }
 div p{
     border: red;
-    height: 40px;
+    height: fit-content;
     width: 16rem;
     background-color: whitesmoke;
     border-radius: 10px;
